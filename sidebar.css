@@ -47,11 +47,21 @@
     transition: all 0.3s ease;
 }
 
+.home-icon:hover {
+    cursor: pointer;
+}
+
+.home-id:hover {
+    cursor: pointer;
+}
+
 .search-icon:hover {
+    cursor: pointer;
     color: #fff;
 }
 
 .search-id:hover {
+    cursor: pointer;
     color: #fff;
 }
 
@@ -77,12 +87,54 @@
 
 .mid {
     font-size: 18px;
-    color: #ffffff;
+    color: grey;
+}
+
+.mid:hover {
+    cursor: pointer;
+    color: #fff;
 }
 
 .lib-mid {
     display: flex;
     gap: 1rem;
+    position: relative;
+}
+
+.tool-tip {
+    display: none;
+    position: absolute;
+    background-color: #242424;
+    color: #fff;
+    top: -3rem;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    transition: all 0.3s ease;
+}
+
+.lib-mid:hover .tool-tip {
+    display: block;
+}
+
+.plussign {
+    position: relative;
+}
+
+.tool-tip2 {
+    color: #fff;
+    position: absolute;
+    width: 11rem;
+    top: -3rem;
+    right: -2rem;
+    background-color: #242424;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    display: none;
+}
+
+.plussign:hover .tool-tip2 {
+    display: block;
 }
 
 .mid-scrol {
@@ -122,6 +174,10 @@
     border-radius: 1rem;
     font-weight: 600;
     border: none;
+}
+
+.btns:hover {
+    padding: 0.6rem 1.1rem;
 }
 
 .bottom {

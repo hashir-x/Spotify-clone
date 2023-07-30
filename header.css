@@ -58,6 +58,7 @@
 
 .log_in:hover {
     font-weight: 600;
+    cursor: pointer;
 }
 
 .sign_up {
@@ -70,6 +71,7 @@
 
 .sign_up:hover {
     font-weight: 600;
+    cursor: pointer;
     columns: #fff;
 }
 
