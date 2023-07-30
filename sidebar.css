@@ -1,0 +1,170 @@
+.sidebar {
+    position: fixed;
+    /* background-color: red; */
+    left: 0.4rem;
+    top: 0.4rem;
+    width: 22.1rem;
+    bottom: 4.8rem;
+}
+
+.top {
+    width: 22.1rem;
+    background-color: rgba(255, 255, 255, 0.06);
+    position: fixed;
+    top: 0.4rem;
+    left: 0.4rem;
+    height: 7.5rem;
+    border-radius: 0.4rem;
+}
+
+.home {
+    display: flex;
+    margin: 1.5rem;
+    gap: 1.2rem;
+}
+
+.home-icon {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.home-id {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.search-icon {
+    color: grey;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}
+
+.search-id {
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.search-icon:hover {
+    color: #fff;
+}
+
+.search-id:hover {
+    color: #fff;
+}
+
+.middle {
+    background-color: rgba(255, 255, 255, 0.06);
+    position: fixed;
+    left: 0.4rem;
+    width: 22.1rem;
+    top: 8.3rem;
+    height: 22rem;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+
+.library {
+    padding: 1rem 1.5rem;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    height: 3.2rem;
+}
+
+.mid {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.lib-mid {
+    display: flex;
+    gap: 1rem;
+}
+
+.mid-scrol {
+    width: 22.1rem;
+    height: 18.2rem;
+    padding: 1rem .4rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.mid-scrol::-webkit-scrollbar {
+    display: none;
+  }
+
+.playlist {
+    border: none;
+    padding: 0rem 1rem 1rem 1rem;
+    background-color: #242424;
+    border-radius: 10px;
+}
+
+.headings {
+    color: #ffffff;
+    margin-bottom: .5rem
+    ;
+}
+
+.para {
+    color: #ffffff;
+}
+
+.btns {
+    font-size: 16px;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.bottom {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.06);
+    left: 0.4rem;
+    width: 22.1rem;
+    top: 30.3rem;
+    bottom: 4.8rem;
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+}
+
+.foot {
+    font-size: 12px;
+    font-weight: 600;
+    color: grey;
+}
+
+.b-t, .b-m, .b-b {
+    margin: 8px;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-eng {
+    margin-top: 2rem;
+    width: 6.5rem;
+    height: 2rem;
+    color: #ffffff;
+    background-color: #121212;
+    border: none;
+    border: 0.1px solid #fff;
+    border-radius: 15px;
+}
+
+.eng {
+    font-size: 16px;
+    font-weight: 600;
+}
